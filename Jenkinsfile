@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'slave-amar' }
+    
     environment {
     DOCKERHUB_CREDENTIALS = credentials('DockerId')
     }
